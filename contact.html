@@ -30,7 +30,7 @@
                <h2 class="accent-line">Contact</h2>
                <p>Here is how you can reach me</p>
             </div>
-            <form  class="contact-form my-5 mobile" name="contact" method="POST" data-netlify="true">
+            <form  class="contact-form my-5 mobile" name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
                <div class="form-group">
                   <label  for="name">Name</label>
                   <input type="text" placeholder="Full Name" name="name" id="name">
@@ -44,6 +44,7 @@
                   <input  type="number" placeholder="Your number" name="number" id="number">
                </div>
                <button  type="submit" class=" btn  btn-submit">submit</button>
+               <div data-netlify-recaptcha="true"></div>
             </form>
          </div>
          <!-- Address -->
