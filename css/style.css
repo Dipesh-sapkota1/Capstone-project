@@ -190,14 +190,7 @@
  .form-group label{
      font-size: 2rem;
 }
- @media(max-width:576px){
-     .form-group label{
-         font-size: 1.5rem;
-    }
-     .form-group input::placeholder{
-         font-size: 0.8rem;
-    }
-}
+
  .form-group input{
      margin-left: auto;
      width: 70%;
@@ -214,10 +207,24 @@
      margin-left: 10;
      color: var(--white);
 }
+
 /* address */
  .contact-info span:first-child{
      font-size: 1.5rem;
 }
  .contact-info .fas{
      font-size: 2rem;
+}
+
+
+@media(max-width:576px){
+  .form-group label{
+      font-size: 1rem;
+ }
+  .form-group input::placeholder{
+      font-size: 0.8rem;
+ }
+ .btn-submit{
+  font-size: 1rem;
+ }
 }
