@@ -54,6 +54,11 @@
      background: url('../images/hero.jpg') center center/cover no-repeat;
      position: relative;
 }
+@media(max-width:576px){
+  #main-header{
+    height: 65vh;
+  }
+}
  #main-header::after{
      content: '';
      display: block;
